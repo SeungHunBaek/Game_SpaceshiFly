@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.baek.myapplication.MainViewActivity"
+    >
+
+    <ImageView
+        android:scaleType="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:layout_width="322dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gameresult_b"
+                android:id="@+id/img_result"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="얻은 코인 :"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+
+                android:layout_alignParentBottom="@id/img_result"
+                android:layout_alignParentLeft="@id/img_result"
+                android:layout_alignParentRight="@id/img_result"
+                android:layout_alignParentTop="@id/img_result"
+
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="70dp"
+                />
+            <TextView
+                android:id="@+id/textView_resultCoin"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+
+                android:layout_alignParentBottom="@id/img_result"
+                android:layout_alignParentLeft="@id/img_result"
+                android:layout_alignParentRight="@id/img_result"
+                android:layout_alignParentTop="@id/img_result"
+
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="175dp"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주행 거리 : "
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+
+                android:layout_alignParentBottom="@id/img_result"
+                android:layout_alignParentLeft="@id/img_result"
+                android:layout_alignParentRight="@id/img_result"
+                android:layout_alignParentTop="@id/img_result"
+
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="70dp"
+                />
+            <TextView
+                android:id="@+id/textView_resultDistance"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+
+                android:layout_alignParentBottom="@id/img_result"
+                android:layout_alignParentLeft="@id/img_result"
+                android:layout_alignParentRight="@id/img_result"
+                android:layout_alignParentTop="@id/img_result"
+
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="175dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+        >
+
+            <ImageView
+                android:id="@+id/btn_menu"
+                android:layout_marginTop="-15dp"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:src="@drawable/button_menu" />
+
+            <ImageView
+                android:id="@+id/btn_restart"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="-15dp"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:src="@drawable/button_re" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView">
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

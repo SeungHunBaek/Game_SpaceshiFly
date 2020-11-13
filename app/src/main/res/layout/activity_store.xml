@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/item_background_b_final_final"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="40"
+        android:gravity="bottom|right"
+
+        >
+        <TextView
+            android:id="@+id/textView_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="소지금액 : 999999 "
+        />
+
+       <ImageView
+           android:id="@+id/img_btn_save"
+           android:layout_width="100dp"
+           android:layout_height="47dp"
+           android:src="@drawable/save"
+           android:text="저장하기"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_weight="60.4"
+        >
+        <ImageView
+            android:id="@+id/img_item_btn_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/sold"
+        />
+        <ImageView
+            android:id="@+id/img_item_btn_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/sold"
+        />
+
+        <ImageView
+            android:id="@+id/img_item_btn_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/sold"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/bullet_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bullet_b"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+            />
+
+            <ImageView
+                android:id="@+id/bullet_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bullet_c"
+                android:layout_weight="1"
+            />
+
+            <ImageView
+                android:id="@+id/bullet_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bullet_d"
+                android:layout_weight="1"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/img_btn_bullet_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/use"
+                />
+
+            <ImageView
+                android:id="@+id/img_btn_bullet_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/use"
+                />
+
+
+            <ImageView
+                android:id="@+id/img_btn_bullet_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/use"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
